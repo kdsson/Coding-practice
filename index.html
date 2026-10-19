@@ -7,11 +7,19 @@
 <body> 
 
     <h1>Hello, World!</h1> 
-    <p>Welcome to Day 1 of my 7-Day Coding Challenge.</p> 
+    <p>Welcome to Day 1 of my 7-Day Coding Challenge.</p>
+
+    <button onclick="greetUser()">Click to Start</button>
+
+    <script>
+        function greetUser() {
+            let name = prompt("Whats ur name?");
+            if (name) {
+                alert("Nice to meet you, " + name + "! you input" + Input +"!" );
 
     <h4>Hello, input something</h4> 
     
-    <input type="text" id="myInput"> 
+    <input type="text" id="Input"> 
     
     <button onclick="alert(document.getElementById('myInput').value)">Submit</button> 
 
