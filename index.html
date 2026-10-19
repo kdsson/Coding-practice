@@ -9,15 +9,14 @@
     <h1>Hello, World!</h1> 
     <p>Welcome to Day 1 of my 7-Day Coding Challenge.</p> 
 
-    <h4>Hello, input something:</h4> 
+    <h4>Hello, input something</h4> 
     
-    <form action="http://httpbin.org" method="GET">
-        
-        <input type="text" name="userMessage" placeholder="Type here..."> 
-        
-        <button type="submit">Submit Text</button> 
-        
-    </form>
+    <input type="text" id="myInput"> 
+    
+    <button onclick="alert(document.getElementById('myInput').value)">Submit</button> 
 
 </body> 
 </html>
+
+
+
